@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ProyectoHeinner.views.LoginPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#127ac7">
+            <StackLayout HorizontalOptions="Fill"
+                     VerticalOptions="CenterAndExpand">
+                <StackLayout Padding="0">
+                    <Label Text="Welcome to Xamarin"
+                    FontSize="30"
+                    FontAttributes="Bold"
+                    TextColor="White"
+                    HorizontalOptions="Center" />
+                </StackLayout>
+
+                <StackLayout Padding="20, 10">
+                    <Label Text="Cross-platform apps made easy"                   
+                       FontSize="18"
+                      TextColor="White"
+                       LineBreakMode="WordWrap"
+                   HorizontalOptions="CenterAndExpand"/>
+                </StackLayout>
+
+                <StackLayout Padding="0, 0, 0, 10">
+                    <Button BackgroundColor="#1dabf0"
+                    Text="Login"
+                    TextColor="White" />
+                </StackLayout>
+
+                <StackLayout>
+                    <Button BackgroundColor="#1dabf0"
+                    Text="Register"
+                    TextColor="White" />
+                </StackLayout>
+
+            </StackLayout>
+        </StackLayout >
+    </ContentPage.Content>
+</ContentPage>
